@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
 * {
     margin: 0;
@@ -1475,5 +1476,21 @@ Main Components
     display: block;
     padding: 1.7em 0;
     border-radius: 0 0 4px 4px;
+  }
+  .myinfo {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300;
+  margin: 50px auto;
+  justify-content: center;
+  }
+
+  .contactinfo {
+    flex: 0 0 70px;
+    margin: 20px 10px;
+  }
+
+  .break2 {
+    height: calc(100vh- 30px);
   }
 }
